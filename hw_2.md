@@ -356,7 +356,7 @@ grep -rli 'sec' ./* | xargs -I {} cp {} /Users/ostalskyi/hw_ksendzov_courses/dir
 38. Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл -
 
 ```
-grep -r 'sec' ./* >>new_file.txt
+grep -rh 'sec' ./* >>new_file.txt
 
 ```
 ----
